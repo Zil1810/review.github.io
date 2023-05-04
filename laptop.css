@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgba(231, 17, 17, 0.6);
+}
+/* Banner */
+.container-banner {
+  background-image: url(img/IMG_7956.JPG);
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(124, 122, 122, 0.6);
+}
+h1 {
+  margin-bottom: 0;
+}
+a {
+  background-color: azure;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.like-button {
+  position: absolute;
+  font-weight: bold;
+  color: red;
+  top: 20px;
+  right: 30px;
+}
+a:hover {
+  background-color: brown;
+  color: azure;
+}
+.example {
+  background-color: brown;
+  color: rgb(255, 255, 0, 0.5);
+}
+.name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  width: 60%;
+  float: left;
+}
+.chart {
+  list-style: none;
+  background-color: brown;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: right;
+  width: 30%;
+}
+.description ul {
+  clear: both;
+  display: flex;
+  background-color: var(--primary-color);
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.description li {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 5px;
+}
